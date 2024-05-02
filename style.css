@@ -1,0 +1,199 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*hover botões da barra de navegação*/
+.link-header:hover{
+  background-color: #B7B7B7;
+  color: #fff;
+  border-radius: 15px;
+  scale: 1.10;
+}
+
+header{
+  margin: 44px 0px 144px 76px;
+  font-size: 90px;
+}
+
+.aling-img{
+  /*Alinhamento de imagem com texto*/
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.link-header{
+    font-weight: 600;/*negrito*/
+    font-size: 30px;/*tamanho da fonte*/
+    color: #989d9c;
+    cursor: pointer;
+    text-decoration: none;/*tirar a linha de baixo*/
+    margin-right: 23px;/*espaçamento externo a direita*/
+    transition: 1s;
+}
+
+.button-header{
+    background-color: #063f7b;
+    border-radius: 20.5px;
+    width: 162px;
+    height: 41px;
+    border: none;/*tirando a borda do botão*/
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;/*tirar a linha de baixo*/
+    color: #fff;
+}
+
+.button-header:hover{
+    background-color: rgb(38, 86, 94);
+    border-radius: 3px;
+    transition: 1s;
+}
+
+/*Bannner*/
+#banner {
+    width: 100%;
+    height: 600px;
+  /*adiciona uma imagem interna ou externa*/
+    background-image: url("./Img/banner-ods.png");
+    background-size: cover;/*deixa a imagem preencher todo o     container sem cortá-la*/
+    background-position: 50% 80%;
+}
+
+#logo {
+
+    width: 550px; /*largura da imagem*/
+
+    height: auto;   /*para que a altura se adapte automaticamente à largura*/
+  
+}
+
+main{
+    padding-top: 50px;
+}
+
+.logo-image{
+    width: 510px;
+    height: 510px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    
+    line-height: 100px;/*deixa o espaçamento entre os textos iguais*/
+    
+    color: #515151;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 51px;
+    color: #515151;
+}
+
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #515151;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main{
+    background-color: #063f7b;
+    border-radius: 25px;
+    border: none;
+    width: 250px;
+    height: 75px;
+    cursor: pointer;
+    
+    /* colocando o efeito de sombra no texto */
+    filter: drop-shadow(0 3px 3px #1b1b1bce);
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 100px;
+    transition: 1.5s;
+    text-decoration: none;/*tirar a linha de baixo*/
+}
+
+.button-main:hover{
+    background-color: #0bafcc;
+    border-radius: 2px;
+    filter: drop-shadow(0 4px 4px #636161e0);
+}
+
+#text-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#resumo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.titulo-secundario{
+    text-align: center;
+    padding-right: 1em;
+}
+
+.description{
+    color: #515151;/*cor da font*/
+    font-size: 24px;/*tamanho font*/
+    width: 515px;/* largura */
+    font-weight: 400;
+    line-height: 29px;
+    
+}
+
+/* Aqui inicia o rodapé */
+
+footer{
+    background-color: #fc6b23;
+    height: 300px;/*altura*/
+    bottom: 0;
+    width: 100%;
+}
+.footer-content{
+    margin-top: 60px;/*espaçamento externo superior*/
+    display: flex;/*utilizando flex para poder alinhar os elementos*/
+    flex-direction: column;/*colocando os elementos em coluna*/
+    align-items: center;/*alinhando os elementos no centro verticalmente*/
+    justify-content: center;/*alinhando os elementos no centro horizontalmente*/
+}
+
+.footer-texto{
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+
