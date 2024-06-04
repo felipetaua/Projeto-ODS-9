@@ -7,9 +7,11 @@
   <!--Links-->
   <link rel="stylesheet" href="./style.css">
   <!--Icone do site(minhatura)-->
-  <link rel="icon" href="./Img/icone-site.jpg">
+  <link rel="shortcut icon" href="./Img/icone-site.jpg" type="image/x-icon">
   <!--Font awasome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <title>Projeto ODS</title>
 </head>
 <body>
@@ -17,6 +19,7 @@
     <header>
       <div class="aling-img">
         <Img src="./Img/logoOds.png"id="logo" alt="logo ODS"></Img>
+        <div class="header-nav">
         <a href="#Home" class="link-header"target="_blank">Início</a>
                <a href="https://www.estrategiaods.org.br/os-ods/ods9/" class="link-header"target="_blank">ODS9</a>
         <a href="https://www.canva.com/design/DAGD2U6XBk4/KT9PLAN5uwuIb4uoC2GkvA/view" class="link-header"target="_blank">Criação</a>
@@ -24,18 +27,19 @@
         <button class="button-header">
           <a href="https://youtube.com/watch?v=c8cfBU7PaWI&si=huhliImg3aIqjWt7" target="_blank">+ sobre</a>
           </button>
+        </div>
       </div>
     </header>
     
 <div id="banner"></div>
-    
+
     <main>
         <img src="./Img/ico-ODS9.png" class="logo-image">
         <section>
-            <h1>ODS 9 e seus aspectos</h1>
+            <h1 class="animate__animated animate__backInLeft">ODS 9 e seus aspectos</h1>
             <h2>Em geral</h2>
             <p>
-                Os objetivos desta ODS são bastante específicos, mas, em linhas gerais, o intuito é promover a sustentabilidade industrial por meio de soluções que aliem alta performance e baixo nível de impactos ambientais.
+                Os objetivos desta ODS são bastante específicos, mas, em linhas gerais,<br> o intuito é promover a sustentabilidade industrial por meio de soluções que aliem alta performance e baixo nível de impactos ambientais.
             </p>
             <button class="button-main"> 
               <a href="./Video-ods.html" target="_blank">Explore <i class="fa-solid fa-plane"></i></a>
@@ -63,7 +67,27 @@
     <span class="footer-texto">Todos os direitos reservados © 2024</span>
     <span class="footer-texto">Desenvolvido por: Tauã Felipe Rocha Amaro</span>
     <span class="footer-texto">Turma Técnico de Informática para Internet</span>
+<!-- Creditos link -->
+  </div>
+  <div class="footer-credito">
+    <a href="https://github.com/felipetaua"> <i class="fa-brands fa-github"> </i> Github</a>
+    <a href="https://www.instagram.com/felipetaua/"> <i class="fa-brands fa-instagram"> </i> instagram</a>
+    <a href="https://mail.google.com/mail/mu/mp/537/#tl/priority/%5Esmartlabel_personal"> <i class="fa-regular fa-envelope"></i> Gmail</a>
+    <a href="https://wa.me/qr/EJ64RAN2NN34E1"> <i class="fa-brands fa-whatsapp"></i> Whatsapp </a>
   </div>
 </footer>
+
+<!-- Acessibilidade Libras -->
+
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
 </body>
 </html>
