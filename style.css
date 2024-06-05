@@ -1,0 +1,403 @@
+/* Reset e estilos básicos */
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hover botões da barra de navegação */
+.link-header:hover {
+  background-color: #B7B7B7;
+  color: #fff;
+  border-radius: 15px;
+  scale: 1.10;
+}
+
+header {
+  margin: 44px 0 144px 76px;
+  font-size: 90px;
+}
+
+.aling-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 30px;
+  color: #989d9c;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 23px;
+  transition: 1s;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-header {
+  background-color: #063f7b;
+  border-radius: 20.5px;
+  width: 162px;
+  height: 41px;
+  border: none;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-header:hover {
+  background-color: rgb(38, 86, 94);
+  border-radius: 3px;
+  transition: 1s;
+}
+
+/* Banner */
+#banner {
+  width: 100%;
+  height: 650px;
+  background-image: url("./Img/banner-ods.png");
+  background-size: cover;
+  background-position: 50% 80%;
+}
+
+#logo {
+  width: 550px;
+  height: auto;
+}
+
+main {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  width: 510px;
+  height: 510px;
+  margin-left: 125px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+section {
+  display: inline-block;
+  margin-left: 86px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 100px;
+  color: #515151;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 51px;
+  color: #515151;
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #515151;
+  width: 100%;
+  max-width: 515px;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.button-main {
+  background-color: #063f7b;
+  border-radius: 25px;
+  border: none;
+  width: 250px;
+  height: 75px;
+  cursor: pointer;
+  filter: drop-shadow(0 3px 3px #1b1b1bce);
+  font-weight: 700;
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 100px;
+  transition: 1.5s;
+  text-decoration: none;
+}
+
+.button-main:hover {
+  background-color: #0bafcc;
+  border-radius: 2px;
+  filter: drop-shadow(0 4px 4px #636161e0);
+}
+
+#text-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#resumo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.titulo-secundario {
+  text-align: center;
+  padding-right: 1em;
+}
+
+.description {
+  color: #515151;
+  font-size: 24px;
+  width: 100%;
+  max-width: 515px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #fc6b23;
+  height: 300px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-texto {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-credito {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer-credito a{
+  padding: 10px;
+}
+
+.footer-credito a:hover {
+  scale: 1.2;
+}
+
+/* Media queries para responsividade */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  p {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+  }
+
+  .button-main {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .logo-image {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .link-header {
+    font-size: 24px; /* Reduz o tamanho da fonte */
+    margin-right: 15px; /* Reduz o espaçamento entre os links */
+  }
+
+  .button-header {
+    width: 140px; /* Reduz a largura do botão */
+    height: 35px; /* Reduz a altura do botão */
+    font-size: 20px; /* Reduz o tamanho da fonte do botão */
+  }
+
+  #logo {
+    width: 400px; /* Reduz a largura do logo */
+  }
+  
+  /*pagina do video*/
+  iframe {
+    height: 360px; /* Ajusta a altura do iframe para tablets */
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  
+  header {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px; /* Adiciona padding nas laterais para espaçamento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+
+  section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .aling-img {
+    margin-bottom: 50px;
+    flex-direction: column; /* Empilha logo e links verticalmente */
+    align-items: center;
+  
+  }
+
+  .link-header {
+    font-size: 18px; /* Reduz o tamanho da fonte */
+    margin: 8px 0; /* Adiciona espaçamento vertical entre os links */
+  }
+
+  .button-header {
+    width: 120px; /* Reduz a largura do botão */
+    height: 30px; /* Reduz a altura do botão */
+    font-size: 18px; /* Reduz o tamanho da fonte do botão */
+    margin-top: 10px; /* Adiciona espaçamento superior */
+  }
+
+  .button-main {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  #text-container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .content {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    font-size: 18px;
+    margin-right: 0;
+  }
+
+  .logo-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: none;
+  }
+
+  .titulo-secundario {
+    display: none;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer-texto {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #logo {
+    width: 300px; /* Reduz a largura do logo */
+    margin-bottom: 10px; /* Adiciona espaçamento inferior */
+  }
+  
+  main {
+    padding-top: 180px; /* Ajusta o padding superior para acomodar o header */
+  }
+
+  #banner {
+    background-image: url(./Img/ico-ODS9.png);
+    border: 5px solid white;
+    padding: 20px;
+    height: 50vh;
+    width: auto;
+    background-size: cover;
+  }
+  
+  /*pagina do video*/
+  iframe {
+    height: 240px; /* Ajusta a altura do iframe para dispositivos móveis */
+  }
+  
+  .footer-credito {
+    flex-direction: column; /* Alinha os ícones e texto verticalmente */
+  }
+
+  .footer-credito a {
+    margin-bottom: 10px; /* Adiciona espaçamento inferior entre os ícones */
+  }
+
+  .footer-credito a i {
+    margin-right: 5px; /* Adiciona espaçamento entre o ícone e o texto */
+  }
+}

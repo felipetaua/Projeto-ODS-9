@@ -1,0 +1,24 @@
+.trailer{
+    width: 60%;
+}
+
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+/*Bannner*/
+
+#banner2 {
+  
+    width: 100%;
+    height: 300px;
+  /*adiciona uma imagem interna ou externa*/
+    background-image: url("./Img/sustentabilidade.jpg");
+    background-size: contain;/*deixa a imagem preencher todo o     container sem cortá-la*/
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+}
