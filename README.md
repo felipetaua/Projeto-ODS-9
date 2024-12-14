@@ -2,6 +2,8 @@
 
 Este projeto foi desenvolvido para destacar a relevância dos **Objetivos de Desenvolvimento Sustentável (ODS)**, uma agenda global voltada para um futuro mais justo, sustentável e inovador.  
 
+[![Live Server](https://img.shields.io/badge/Live_Server-Click_Here-brightgreen?style=for-the-badge)](https://felipetaua.github.io/Projeto-ODS-9/)
+
 ## 🎯 **Foco no Objetivo 9: Indústria, Inovação e Infraestrutura**  
 Durante este trabalho, explorei e apresentei o **Objetivo 9**, enfatizando a importância de promover infraestrutura resiliente, industrialização inclusiva e sustentável, além de fomentar a inovação.
 
